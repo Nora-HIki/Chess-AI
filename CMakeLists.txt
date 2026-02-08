@@ -15,10 +15,8 @@ include_directories(include)
 set(SOURCES
     src/main.cpp
     # Add more as you create them:
-    # src/game.cpp
-    # src/board.cpp
-    # src/piece.cpp
-    # src/renderer.cpp
+    src/setup.cpp
+    src/piece.cpp
 )
 
 # Create executable

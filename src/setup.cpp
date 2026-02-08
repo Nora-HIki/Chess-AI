@@ -1,0 +1,36 @@
+#include "Setup.hpp"
+#include "Piece.hpp"
+void setup_board(){
+  piece knight1={1,58,3,'n'};
+  piece knight2={1,63,3,'n'};
+  piece knight3={0,2,3,'n'};
+  piece knight4={0,7,3,'n'};
+  piece rook1={1,57,5,'r'};
+  piece rook2={1,64,5,'r'};
+  piece rook3={0,1,5,'r'};
+  piece rook4={0,8,5,'r'};
+  piece bishop1={1,59,3,'b'};
+  piece bishop2={1,62,3,'b'};
+  piece bishop3={0,3,3,'b'};
+  piece bishop4={0,6,3,'b'};
+  piece queen1={1,60,9,'q'};
+  piece queen2={0,4,9,'q'};
+  piece king1={1,61,99,'k'};
+  piece king2={0,5,99,'k'};
+  piece pawn1={1,9,1,'p'};
+  piece pawn2={1,10,1,'p'};
+  piece pawn3={1,11,1,'p'};
+  piece pawn4={1,12,1,'p'};
+  piece pawn5={1,13,1,'p'};
+  piece pawn6={1,14,1,'p'};
+  piece pawn7={1,15,1,'p'};
+  piece pawn8={1,16,1,'p'};
+  piece pawn9={0,49,1,'p'};
+  piece pawn10={0,50,1,'p'};
+  piece pawn11={0,51,1,'p'};
+  piece pawn12={0,52,1,'p'};
+  piece pawn13={0,53,1,'p'};
+  piece pawn14={0,54,1,'p'};
+  piece pawn15={0,55,1,'p'};
+  piece pawn16={0,56,1,'p'};
+}
